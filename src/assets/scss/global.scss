@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+/* ======================= Start-Color ======================= */
+:root {
+  --primary: linear-gradient(
+    270deg,
+    rgba(115, 103, 240, 0.7) 0%,
+    #7367f0 100%
+  ) !important;
+  --primary2: #7367f0 !important;
+  --secondary: linear-gradient(270deg, #e5b1b3 0%, #ff4c51 100%) !important;
+  --secondary2: #ff4c51 !important;
+  --tertiary: #e8f2fc !important;
+  --forth: #0f172a !important;
+  --success: #4bb543 !important;
+  --warning: #ff5722 !important;
+  --danger: red !important;
+  --info: #2196f3 !important;
+  --white: #fff !important;
+  --card: #fff !important;
+  --dark: #2f2b24 !important;
+  --gray: rgb(80, 72, 72) !important;
+  --dynamic-color: #fff;
+}
+.dark-mode {
+  --primary: #c9f31d !important;
+  --primary2: #74c2a8 !important;
+  --secondary: #9a9bcc !important;
+  --secondary2: #9a9bcc !important;
+  --tertiary: #171718 !important;
+  --forth: #fff !important;
+  --success: #4bb543 !important;
+  --warning: #ff5722 !important;
+  --danger: red !important;
+  --info: #2196f3 !important;
+  --white: #293643 !important;
+  --card: #1e2b34 !important;
+  --dark: #ececec !important;
+  --gray: #fff !important;
+}
+/* ======================= End-Color ======================= */
+
+/* ======================= Start-Bg-Color ======================= */
+.bgprimary {
+  background: var(--primary);
+}
+.bgsecondary {
+  background: var(--secondary);
+}
+.bgprimary2 {
+  background: var(--primary2);
+}
+.bgsecondary2 {
+  background: var(--secondary2);
+}
+.bgtertiary {
+  background: var(--tertiary);
+}
+.bgforth {
+  background: var(--forth);
+}
+.bgsuccess {
+  background: var(--success);
+}
+.bgwarning {
+  background: var(--warning);
+}
+.bgdanger {
+  background: var(--danger);
+}
+.bginfo {
+  background: var(--info);
+}
+.bgwhite {
+  background: var(--white);
+}
+.bggray {
+  background: var(--gray);
+}
+.bgcard {
+  background: var(--card);
+}
+.bgdark {
+  background: var(--dark);
+}
+.bg-light-primary {
+  background: #e9e7fd !important;
+}
+.bg-light-secondary {
+  background: #faf1f1 !important;
+}
+.bg-light-success {
+  background: #4bb5432e !important;
+}
+.bg-light-warning {
+  background: #faf0ed !important;
+}
+.bg-light-danger {
+  background: rgba(255, 0, 0, 0.144) !important;
+}
+.bg-ec {
+  background-color: #ececec !important;
+}
+.bg-fa {
+  background-color: #fafafa !important;
+}
+.bg-efefef {
+  background-color: #efefef !important;
+}
+.bg-f4f5f6 {
+  background: #f4f5f6 !important;
+}
+.bg-f6f5f3 {
+  background: #f6f5f3 !important;
+}
+.bg-glass {
+  background: rgba(255, 255, 255, 0.09);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.2px);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+}
+.bg-glass2 {
+  background: rgba(255, 255, 255, 0.09);
+  backdrop-filter: blur(1.7px);
+}
+.liner-color {
+  background: linear-gradient(45deg, #e66465, #9198e5) !important;
+}
+.liner-color2 {
+  background: linear-gradient(45deg, #3f87a6, #f69d3c) !important;
+}
+.liner-color3 {
+  background: linear-gradient(45deg, #0045c7, #ff2c7d) !important;
+}
+/* ======================= End-Bg-Color ======================= */
+
+/* ======================= Start-Text-Color ======================= */
+.textprimary {
+  color: var(--primary2);
+}
+.textsecondary {
+  color: var(--secondary2);
+}
+.textcard {
+  color: var(--card);
+}
+.texttertiary {
+  color: var(--tertiary);
+}
+.textforth {
+  color: var(--forth);
+}
+.textsuccess {
+  color: var(--success);
+}
+.textwarning {
+  color: var(--warning);
+}
+.textdanger {
+  color: var(--danger);
+}
+.textinfo {
+  color: var(--info);
+}
+.textwhite {
+  color: var(--white);
+}
+.textgray {
+  color: var(--gray);
+}
+.textdark {
+  color: var(--dark);
+}
+/* ======================= End-Text-Color ======================= */
+
+/* ======================= Start-Border ======================= */
+.border-primary {
+  border: 1px solid var(--primary);
+}
+.border-card {
+  border: 1px solid var(--card);
+}
+.border-secondary {
+  border: 1px solid var(--secondary);
+}
+.border-tertiary {
+  border: 1px solid var(--tertiary);
+}
+.border-forth {
+  border: 1px solid var(--forth);
+}
+.border-success {
+  border: 1px solid var(--success);
+}
+.border-warning {
+  border: 1px solid var(--warning);
+}
+.border-danger {
+  border: 1px solid var(--danger);
+}
+.border-info {
+  border: 1px solid var(--info);
+}
+.border-white {
+  border: 1px solid var(--white);
+}
+.border-gray {
+  border: 1px solid var(--gray);
+}
+.border-dark {
+  border: 1px solid var(--dark);
+}
+/* ======================= End-Border ======================= */
+
+/* ======================= Start-Font-Family ======================= */
+p,
+label,
+small,
+input,
+textarea,
+select,
+button {
+  font-family: "Poppins", "Ubuntu", sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+th,
+td,
+tr,
+li,
+.css-b62m3t-container,
+a {
+  font-family: "Poppins", "Ubuntu", sans-serif !important;
+}
+p {
+  line-height: 26px !important;
+  @media (max-width: 640px) {
+    line-height: 20px !important;
+  }
+}
+input,
+::placeholder {
+  @media (max-width: 640px) {
+    font-size: 13px !important;
+  }
+}
+.css-b62m3t-container {
+  font-size: 14px !important;
+}
+/* ======================= End-Font-Family ======================= */
+
+.bg_hero {
+  background: url("https://www.primefaces.org/cdn/primereact/images/layout/pattern.png"),
+    radial-gradient(50% 50% at center top, #e9e7fd -50%, #fff 100%) !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section_bg {
+  background-image: linear-gradient(
+      rgba(109, 102, 102, 0.057) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg,  rgba(109, 102, 102, 0.057) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+.ab_pr_100 {
+  height: 100vh !important;
+  @media (max-width: 640px) {
+    height: 100% !important;
+  }
+}
+.brand_img{
+  height: 80px !important;
+}
+.cust_round{
+  border-radius: 0px 10px 0px 0px;
+}
+.minus_hr{
+  margin-top: -1px !important;
+}
+.icon_img{
+  width: 55px !important;
+  height: 55px !important;
+}
+
+// Section2
+.service2-h {
+  height: 270px !important;
+  @media (max-width: 640px) {
+    height: 250px !important;
+  }
+}
+.service2-img {
+  width: 55px !important;
+  height: 55px !important;
+  @media (max-width: 912px) and (min-width: 641px) {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  @media (max-width: 640px) {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
+.pointer {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
+  margin-top: -20px !important;
+  background: var(--primary2);
+  @media (min-width: 641px) and (max-width: 912px) {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  @media (max-width: 640px) {
+    width: 38px !important;
+    height: 38px !important;
+  }
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+// Section2
+// Section4
+.service4-img {
+  width: 100% !important;
+  height: 350px !important;
+  @media (max-width: 1224px) and (min-width: 913px) {
+    height: 290px !important;
+  }
+  @media (max-width: 912px) {
+    height: 100% !important;
+  }
+}
+.servicesecond4-img {
+  width: 40px !important;
+  height: 40px !important;
+}
+.service4-circle {
+  width: 270px !important;
+  height: 270px !important;
+  @media (max-width: 1224px) and (min-width: 913px) {
+    width: 230px !important;
+    height: 230px !important;
+  }
+  @media (max-width: 912px) and (min-width: 641px) {
+    width: 30% !important;
+    height: 180px !important;
+  }
+  @media (max-width: 640px) {
+    width: 100% !important;
+    height: 180px !important;
+  }
+}
+// Section4
+
+/* ======================= End-AB1 ======================= */
