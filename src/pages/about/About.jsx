@@ -2,21 +2,19 @@ import React from "react";
 import Banner from "./components/Banner";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
-import Section4 from "./components/Section4";
-import Section5 from "./components/Section5";
 
-const Home = () => {
+const About = () => {
   return (
     <div className="relative section_bg overflow-hidden">
       <Banner />
-      <Section2 />
-      <Section3 />
-      <div className="bgwhite">
-        <Section4 />
+      <div className="container mx-auto">
+        <Section2 />
       </div>
-        <Section5 />
+      <div className="py10 bgwhite">
+        <Section3 />
+      </div>
     </div>
   );
 };
 
-export default Home;
+export default About;

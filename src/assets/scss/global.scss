@@ -313,6 +313,9 @@ input,
   border-radius: 50% !important;
   margin-top: -20px !important;
   background: var(--primary2);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+  transform: scale(1);
+  animation: pulse 2s infinite;
   @media (min-width: 641px) and (max-width: 912px) {
     width: 40px !important;
     height: 40px !important;
@@ -321,9 +324,6 @@ input,
     width: 38px !important;
     height: 38px !important;
   }
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 2s infinite;
 }
 @keyframes pulse {
   0% {
@@ -374,5 +374,33 @@ input,
   }
 }
 // Section4
+
+.scrollx svg {
+  position: absolute;
+  top: 12%;
+  left: 0px;
+  width: 60vw;
+  @media (max-width: 912px) and (min-width: 641px) {
+    width: 90%;
+  }
+  @media (max-width: 640px) {
+    width: 100%;
+  }
+}
+.summary {
+  width: 100%;
+  min-width: 50% !important;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  @media (max-width: 912px) and (min-width: 641px) {
+  height: 80vh;
+  min-width: 80% !important;
+  }
+  @media (max-width: 640px) {
+    min-width: 80% !important;
+  }
+}
 
 /* ======================= End-AB1 ======================= */

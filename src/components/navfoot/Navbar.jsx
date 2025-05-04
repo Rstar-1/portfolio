@@ -1,5 +1,4 @@
 import React from "react";
-import Buttons from "../common/Buttons";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
@@ -14,10 +13,10 @@ const Navbar = () => {
     <div className="py12 w-full navbar">
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
-          <h1 className="font-500 fsize20 textgray my1">
+          <h1 className="font-500 fsize19 textgray my1">
             RAJ<span className="textprimary mlpx2">Shetye</span>
           </h1>
-          <div className="flex md-hidden sm-hidden items-center gap-12 mrpx15">
+          <div className="flex md-hidden sm-hidden items-center gap-12">
             {NavData.map((e, index) => (
               <NavLink
                 key={index}
@@ -29,14 +28,7 @@ const Navbar = () => {
               </NavLink>
             ))}
           </div>
-          <Buttons
-            text="Get Started"
-            color="primary"
-            round="sm"
-            size="sm"
-            animation="v8"
-            className="font-400 md-hidden sm-hidden"
-          />
+         <button className="px18 py8 bgprimary border-0 textwhite rounded-5 fsize12 cursor-pointer">Download CV</button>
         </div>
       </div>
     </div>

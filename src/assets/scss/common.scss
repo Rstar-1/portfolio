@@ -1801,6 +1801,15 @@ input:focus-visible {
     height: 320px !important;
   }
 }
+.h-400px {
+  height: 400px !important;
+  @media (max-width: 912px) and (min-width: 641px) {
+    height: 380px !important;
+  }
+  @media (max-width: 640px) {
+    height: 320px !important;
+  }
+}
 .h-350px {
   height: 350px !important;
   @media (max-width: 912px) and (min-width: 641px) {
@@ -1817,6 +1826,15 @@ input:focus-visible {
   }
   @media (max-width: 640px) {
     height: 250px !important;
+  }
+}
+.h-video {
+  height: 300px !important;
+  @media (max-width: 912px) and (min-width: 641px) {
+    height: 180px !important;
+  }
+  @media (max-width: 640px) {
+    height: 150px !important;
   }
 }
 .h-250px {
@@ -2001,7 +2019,7 @@ p {
     line-height: 50px !important;
   }
   .leading-hsm {
-    line-height: 54px !important;
+    line-height: 48px !important;
   }
   .leading-l {
     line-height: 42px !important;
