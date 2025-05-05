@@ -4,7 +4,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 import img1 from '../../../assets/img8.png'
 import img2 from '../../../assets/img3.png'
-import img3 from '../../../assets/img6.png'
+import img3 from '../../../assets/img2.png'
 
 const Section2 = () => {
   const data = [
@@ -23,8 +23,8 @@ const Section2 = () => {
     {
       image: img3,
       subtitle: "Expert",
-      title: "HRX Website",
-      desc: "Built an advanced HRX brand website using Vue.js, focusing on performance, modular components, and responsive design. Ensured seamless navigation, dynamic content rendering, and maintainable code architecture for a smooth user experience.",
+      title: "Carboncircle Website",
+      desc: "Built an advanced Carbon Circle brand website using Vue.js, focusing on performance, modular components, and responsive design. Ensured seamless navigation and maintainable code architecture for a smooth user experience.",
     },
   ];
   useEffect(() => {
