@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -16,12 +17,16 @@ const Banner = () => {
           JavaScript (ES6+), React, and Tailwind CSS.
         </p>
         <div className="flex justify-center sm-justify-start items-center gap-12 mtpx28 md-mtpx20 sm-mtpx18">
-          <button className="px25 py8 sm-px18 sm-py6 fsize18 sm-fsize15 rounded-5 btn-style8 font-400 cursor-pointer click-btn">
-            <span className="relative z-50">Know More</span>
-          </button>
-          <button className="px25 py8 sm-px18 sm-py6 fsize18 sm-fsize15 rounded-5 btn-style11 font-400 cursor-pointer click-btn">
-            <span>How It Works</span>
-          </button>
+          <NavLink to="/project">
+            <button className="px25 py8 sm-px18 sm-py6 fsize18 sm-fsize15 rounded-5 btn-style8 font-400 cursor-pointer click-btn">
+              <span className="relative z-50">Know More</span>
+            </button>
+          </NavLink>
+          <NavLink to="/service">
+            <button className="px25 py8 sm-px18 sm-py6 fsize18 sm-fsize15 rounded-5 btn-style11 font-400 cursor-pointer click-btn">
+              <span>How It Works</span>
+            </button>
+          </NavLink>
         </div>
         <img
           src="https://next-images.123rf.com/index/_next/image/?url=https://assets-cdn.123rf.com/index/static/assets/top-section-bg.jpeg&w=3840&q=75"

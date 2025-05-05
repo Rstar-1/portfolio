@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import Resume from '../../assets/portfolio.pdf'
 
 const Navbar = () => {
   const NavData = [
@@ -74,9 +75,11 @@ const Navbar = () => {
           </div>
           <div className="w-full absolute bottom-0 left-0">
             <div className="px20 pbpx20">
-              <button className="px18 py8 bgprimary border-0 textwhite rounded-5 fsize12 cursor-pointer">
-                Download CV
-              </button>
+              <a href={Resume} download>
+                <button className="px18 py8 bgprimary border-0 textwhite rounded-5 fsize12 cursor-pointer">
+                  Download CV
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -99,9 +102,11 @@ const Navbar = () => {
             ))}
           </div>
           <div className="flex md-hidden sm-hidden">
-            <button className="px18 py8 bgprimary border-0 textwhite rounded-5 fsize12 cursor-pointer">
-              Download CV
-            </button>
+           <a href={Resume} download>
+              <button className="px18 py8 bgprimary border-0 textwhite rounded-5 fsize12 cursor-pointer">
+                Download CV
+              </button>
+            </a>
           </div>
           <div className="hidden md-block sm-block">
             <div
