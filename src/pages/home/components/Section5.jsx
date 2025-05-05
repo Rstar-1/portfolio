@@ -52,7 +52,7 @@ const Section5 = () => {
 
   return (
     <div className="wrapper container mx-auto relative sm-overflow-hidden">
-      <div className="scrollx w-full flex gap-12">
+      <div className="scrollx w-full flex items-center gap-12">
         <svg
           viewBox="0 0 900 10"
           fill="none"
@@ -83,65 +83,61 @@ const Section5 = () => {
 
         <div className="summary">
           <div className="">
-            <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500">
-              Advanced
+            <p className="fsize18 md-fsize16 sm-fsize14 textprimary font-500">
+              Brained
             </p>
-            <h4 className="font-600 fsize36 md-fsize26 sm-fsize24 my1 textgray">
-              Product Marketers
+            <h4 className="font-600 fsize28 md-fsize26 sm-fsize22 my1 textgray">
+              Associate Frontend Developer
             </h4>
-            <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
-              Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit
-              sed massa turpis in. Lorem ipsum dolor sit amet consectetur.
-              Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit
-              amet consectetur.
+            <p className="fsize15 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
+              Feb 2025 - Present<br></br>
+              Developed and optimized dynamic web applications using Next.js for
+              server-side rendering and frontend development.
             </p>
           </div>
         </div>
         <div className="summary">
           <div className="">
-            <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500">
-              Advanced
+            <p className="fsize18 md-fsize16 sm-fsize14 textprimary font-500">
+              Brained
             </p>
-            <h4 className="font-600 fsize36 md-fsize26 sm-fsize24 my1 textgray">
-              Product Marketers
+            <h4 className="font-600 fsize28 md-fsize26 sm-fsize22 my1 textgray">
+              Junior Executive UI Developer
             </h4>
-            <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
-              Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit
-              sed massa turpis in. Lorem ipsum dolor sit amet consectetur.
-              Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit
-              amet consectetur.
+            <p className="fsize15 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
+              Feb 2024 - Jan 2025<br></br>
+              Developed and optimized dynamic web applications using Redux for
+              state management and React for frontend development.
             </p>
           </div>
         </div>
         <div className="summary">
           <div className="">
-            <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500">
-              Advanced
+            <p className="fsize18 md-fsize16 sm-fsize14 textprimary font-500">
+              Brained
             </p>
-            <h4 className="font-600 fsize36 md-fsize26 sm-fsize24 my1 textgray">
-              Product Marketers
+            <h4 className="font-600 fsize28 md-fsize26 sm-fsize22 my1 textgray">
+              Associate UI Developer
             </h4>
-            <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
-              Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit
-              sed massa turpis in. Lorem ipsum dolor sit amet consectetur.
-              Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit
-              amet consectetur.
+            <p className="fsize15 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
+              Feb 2023 - Jan 2024<br></br>
+              Developed and maintained dynamic user interfaces using React,
+              ensuring responsiveness and interactivity across web applications.
             </p>
           </div>
         </div>
         <div className="summary">
           <div className="">
-            <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500">
-              Advanced
+            <p className="fsize18 md-fsize16 sm-fsize14 textprimary font-500">
+              Brained
             </p>
-            <h4 className="font-600 fsize36 md-fsize26 sm-fsize24 my1 textgray">
-              Product Marketers
+            <h4 className="font-600 fsize28 md-fsize26 sm-fsize22 my1 textgray">
+              UI Developer Intern
             </h4>
-            <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
-              Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit
-              sed massa turpis in. Lorem ipsum dolor sit amet consectetur.
-              Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit
-              amet consectetur.
+            <p className="fsize15 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
+              Jul 2022 - Jan 2023<br></br>
+              Utilized HTML, CSS, and Vue.js to design and develop responsive
+              and user-friendly interfaces for websites.
             </p>
           </div>
         </div>

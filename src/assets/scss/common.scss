@@ -1856,6 +1856,15 @@ body {
   word-wrap: break-word !important;
   width: 100% !important;
 }
+html {
+  height: auto !important;
+}
+html {
+  overflow: hidden;
+  @media (max-width: 640px) {
+    overflow: visible;
+  }
+}
 a {
   text-decoration: none !important;
 }
@@ -2050,5 +2059,17 @@ p {
 }
 .navbar .active {
   color: var(--primary2) !important;
+}
+.navbar .navhide {
+  position: absolute;
+  right: -50%;
+  width: 50% !important;
+  transition: all 0.3s ease-in 0s;
+}
+.navbar .navview {
+  position: absolute;
+  right: 0%;
+  width: 100% !important;
+  transition: all 0.3s ease-in 0s;
 }
 /* ======================= End-NavFoot ======================= */

@@ -11,8 +11,9 @@ const Banner = () => {
           Designing <span className="textprimary">Better world</span> and Care
         </h2>
         <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray text-center sm-text-left mtpx20 md-mtpx16 sm-mtpx8 w-70 md-w-80 sm-w-full mx-auto">
-          Lorem ipsum is a text graphic design, publishing, and web development
-          to fill dummy or placeholder text commonly used in graphic design.
+          Creative and detail-oriented frontend developer with a strong
+          foundation in modern web technologies including HTML5, CSS3,
+          JavaScript (ES6+), React, and Tailwind CSS.
         </p>
         <div className="flex justify-center sm-justify-start items-center gap-12 mtpx28 md-mtpx20 sm-mtpx18">
           <button className="px25 py8 sm-px18 sm-py6 fsize18 sm-fsize15 rounded-5 btn-style8 font-400 cursor-pointer click-btn">

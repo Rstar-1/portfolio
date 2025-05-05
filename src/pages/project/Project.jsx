@@ -4,7 +4,7 @@ import Section2 from './components/Section2'
 
 const Project = () => {
   return (
-    <div className="relative section_bg overflow-hidden">
+    <div className="relative overflow-hidden">
       <Banner />
       <Section2 />
     </div>

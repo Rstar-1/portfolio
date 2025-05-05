@@ -40,22 +40,31 @@ const Section3 = () => {
     <div className="container mx-auto">
       <div className="w-full flex sm-flex-column-reverse items-center py36 md-py30 sm-py20">
         <div className="w-50 sm-w-full prpx30 md-prpx20 sm-prpx1 sm-mtpx25">
-          <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500">
-            Advanced
+          <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500 mbpx6">
+            Info
           </p>
-          <h4 className="font-600 fsize36 md-fsize26 sm-fsize24 my1 textgray">
-            Product Marketers
+          <h4 className="font-600 fsize30 md-fsize26 sm-fsize24 my1 textgray">
+            Hey, I am Raj Shetye
           </h4>
           <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
-            Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed
-            massa turpis in. Lorem ipsum dolor sit amet consectetur. Egestas
-            euismod nec sit sed massa turpis in. Lorem ipsum dolor sit amet
-            consectetur.
+            Passionate about building responsive, accessible, and user-friendly
+            web interfaces. <br></br>Experienced in collaborating with
+            cross-functional teams to deliver seamless digital experiences.
           </p>
+          <div className="grid-cols-4 sm-grid-cols-2 gap-12 mtpx16">
+            <div>
+              <h6 className="fsize26 sm-fsize18 textdark font-600 my1">30+</h6>
+              <p className="fsize14 textgray">Projects</p>
+            </div>
+            <div>
+              <h6 className="fsize26 sm-fsize18 textdark font-600 my1">2.10Y</h6>
+              <p className="fsize14 textgray">Experience</p>
+            </div>
+          </div>
         </div>
         <div className="mainabout relative overflow-hidden w-50 sm-w-full">
           <img
-            src="http://static.showit.co/800/137NFxuzSxeyjlons2WEzA/59514/pexels-yan-5793643.jpg"
+            src="https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk22mqgz4qrzx3jcq6x13.png"
             className="abouts1 object-cover h-450px filter-0 rounded-5 w-full flex"
             alt="An elegant Peugeot car"
           />

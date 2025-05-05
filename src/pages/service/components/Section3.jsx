@@ -5,19 +5,18 @@ const Section3 = () => {
     {
       title: "Knowledge",
       description:
-        "Artha embodies the spirit of meaning which we bring to your start-up.",
+        "Skilled in creating clean, maintainable code and development.",
       img: "https://html.themeholy.com/haona/demo/assets/img/icon/process-icon1-1.svg",
     },
     {
       title: "Working",
-      description:
-        "Artha embodies the spirit of meaning which we bring to your start-up.",
+      description: "I am working on React, VueJs and NextJS in Frontend.",
       img: "https://html.themeholy.com/haona/demo/assets/img/icon/process-icon1-2.svg",
     },
     {
       title: "Solution",
       description:
-        "Artha embodies the spirit of meaning which we bring to your start-up.",
+        "Highly skilled in frontend R&D, with a quickly analyze requirements",
       img: "https://html.themeholy.com/haona/demo/assets/img/icon/process-icon1-3.svg",
     },
   ];

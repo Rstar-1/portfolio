@@ -5,28 +5,28 @@ const Section2 = () => {
     {
       title: "Select a project",
       description:
-        "Continua scale empowered metrics with cost effective innovation.",
+        "It has defined objectives, a clear scope, and a set timeline for completion. ",
       number: "1",
       img: "https://html.themeholy.com/webteck/demo/assets/img/icon/service_card_1.svg",
     },
     {
       title: "Project analysis",
       description:
-        "Continua scale empowered metrics with cost effective innovation.",
+        "This phase involves assessing the project’s feasibility, risks, and resources.",
       number: "2",
       img: "https://html.themeholy.com/webteck/demo/assets/img/icon/service_card_2.svg",
     },
     {
       title: "Plan Execute",
       description:
-        "Continua scale empowered metrics with cost effective innovation.",
+        "The planning phase includes developing a roadmap for project execution.",
       number: "3",
       img: "https://html.themeholy.com/webteck/demo/assets/img/icon/service_card_3.svg",
     },
     {
       title: "Deliver result",
       description:
-        "Continua scale empowered metrics with cost effective innovation.",
+        "The final phase involves completing and handing over the project deliverables.",
       number: "4",
       img: "https://html.themeholy.com/webteck/demo/assets/img/icon/service_card_4.svg",
     },

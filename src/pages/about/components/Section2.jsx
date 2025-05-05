@@ -2,29 +2,29 @@ import React, { useEffect } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
+import img1 from '../../../assets/img8.png'
+import img2 from '../../../assets/img3.png'
+import img3 from '../../../assets/img6.png'
 
 const Section2 = () => {
   const data = [
     {
-      image:
-        "http://static.showit.co/800/M0IzUCMvQCqlJn1YtNlikw/59514/pexels-yan-5793641-1.jpg",
+      image: img1,
       subtitle: "Basic",
-      title: "Product Marketers",
-      desc: "Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit consectetur.",
+      title: "Dashboard UI",
+      desc: "Designed and developed a responsive Dashboard UI using React, HTML, and CSS, featuring dynamic components and a clean layout. Implemented interactive UI elements for improved user experience and deployed the project on Netlify for live access.",
     },
     {
-      image:
-        "http://static.showit.co/800/137NFxuzSxeyjlons2WEzA/59514/pexels-yan-5793643.jpg",
+      image: img2,
       subtitle: "Advanced",
-      title: "Product Marketers 2",
-      desc: "Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit consectetur.",
+      title: "Deevior Website",
+      desc: "Developed the Deevior website using Vue.js with a unique horizontal scroll layout. Focused on smooth scroll interactions, component-based architecture, and responsive design to deliver an engaging and modern user experience.",
     },
     {
-      image:
-        "http://static.showit.co/800/3kOLYaOCS1SMieN6Y88Fqg/59514/mukuko-studio-mu88mlefcou-unsplash.jpg",
-      subtitle: "Pro Advanced",
-      title: "Product Marketers 3",
-      desc: "Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed massa turpis in. Lorem ipsum dolor sit consectetur.",
+      image: img3,
+      subtitle: "Expert",
+      title: "HRX Website",
+      desc: "Built an advanced HRX brand website using Vue.js, focusing on performance, modular components, and responsive design. Ensured seamless navigation, dynamic content rendering, and maintainable code architecture for a smooth user experience.",
     },
   ];
   useEffect(() => {
@@ -58,10 +58,10 @@ const Section2 = () => {
             return (
               <div className="ab_pr_100 w-full flex items-center" key={index}>
                 <div className="prpx40 md-prpx30 sm-prpx1 sm-py20">
-                  <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500">
+                  <p className="fsize18 md-fsize16 sm-fsize14 textprimary font-500">
                     {e?.subtitle}
                   </p>
-                  <h4 className="font-600 fsize36 md-fsize26 sm-fsize24 my1 textgray">
+                  <h4 className="font-600 fsize30 md-fsize26 sm-fsize24 my1 textgray">
                     {e?.title}
                   </h4>
                   <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
@@ -81,7 +81,7 @@ const Section2 = () => {
                     key={i}
                     src={item?.image}
                     alt={item?.image}
-                    className="object-cover h-450px filter-0 rounded-5 w-full ab_images absolute object-cover"
+                    className="object-contain h-450px rounded-5 w-full ab_images absolute"
                   />
                 );
               })}

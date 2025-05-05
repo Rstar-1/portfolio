@@ -41,23 +41,25 @@ const Section3 = () => {
       <div className="w-full flex sm-block items-center py40 md-py30 sm-py20">
         <div className="mainabout2 relative overflow-hidden w-50 sm-w-full">
           <img
-            src="http://static.showit.co/800/137NFxuzSxeyjlons2WEzA/59514/pexels-yan-5793643.jpg"
+            src="https://www.eschoolnews.com/files/2024/05/AI-skills-education-workforce-readiness-AI-skill-development.jpeg"
             className="abouts2 object-cover h-450px filter-0 rounded-5 w-full flex"
             alt="An elegant Peugeot car"
           />
         </div>
         <div className="w-50 sm-w-full sm-mtpx25 plpx30 md-plpx20 sm-plpx1">
           <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500">
-            Advanced
+            Skills
           </p>
-          <h4 className="font-600 fsize36 md-fsize26 sm-fsize24 my1 textgray">
-            Product Marketers
+          <h4 className="font-600 fsize30 md-fsize26 sm-fsize24 my1 textgray">
+            What are my skills?
           </h4>
           <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
-            Lorem ipsum dolor sit amet consectetur. Egestas euismod nec sit sed
-            massa turpis in. Lorem ipsum dolor sit amet consectetur. Egestas
-            euismod nec sit sed massa turpis in. Lorem ipsum dolor sit amet
-            consectetur.
+            Proficient in JavaScript (ES6+), HTML5, CSS3, and SCSS, with a
+            strong command of modern frameworks and libraries like React.js,
+            Next.js, Vue.js, Redux, Tailwind CSS, and Material-UI. Skilled in
+            using tools such as Git, GitHub, VS Code, and Chrome DevTools, with
+            a focus on cross-browser compatibility, SEO optimization, and smooth
+            UI animations.
           </p>
         </div>
       </div>
