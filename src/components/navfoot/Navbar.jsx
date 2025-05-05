@@ -73,7 +73,7 @@ const Navbar = () => {
               </>
             ))}
           </div>
-          <div className="w-full absolute bottom-0 left-0">
+          <div className="w-full absolute bottom-0 left-0 pbpx50">
             <div className="px20 pbpx20">
               <a href={Resume} download>
                 <button className="px18 py8 bgprimary border-0 textwhite rounded-5 fsize12 cursor-pointer">

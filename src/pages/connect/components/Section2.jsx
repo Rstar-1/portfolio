@@ -72,9 +72,9 @@ const Section2 = () => {
                 <rect x="2" y="9" width="4" height="12"></rect>
                 <circle cx="4" cy="4" r="2"></circle>
               </svg>
-              <a href="tel:+91 8779030638">
+              <a href="https://www.linkedin.com/in/raj-shetye-638961251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                 <p className="font-500 fsize17 sm-fsize14 textforth mlpx10">
-                  Linkedin
+                  Linkedin Profile
                 </p>
               </a>
             </div>
