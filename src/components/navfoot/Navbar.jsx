@@ -85,8 +85,8 @@ const Navbar = () => {
       </div>
       <div className="container mx-auto">
         <div className="flex items-center justify-between py12">
-          <h1 className="font-500 fsize19 textgray my1">
-            RAJ<span className="textprimary mlpx2">Shetye</span>
+          <h1 className="font-500 fsize19 textprimary uppercase my1">
+            Port<span className="textgray mlpx2">folio</span>
           </h1>
           <div className="flex md-hidden sm-hidden items-center gap-12">
             {NavData.map((e, index) => (
@@ -102,7 +102,7 @@ const Navbar = () => {
           </div>
           <div className="flex md-hidden sm-hidden">
             <a href="tel:+91 8779030638">
-              <button className="px18 py8 bgprimary border-0 textwhite rounded-5 fsize12 cursor-pointer">
+              <button className="px20 py8 bgprimary border-0 textwhite rounded-5 fsize12 cursor-pointer">
                 Connect Me
               </button>
             </a>

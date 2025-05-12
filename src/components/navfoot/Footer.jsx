@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Footer = () => {
     const footData = [
       { href: "/about", label: "About" },
-      { href: "/expertise", label: "Service" },
+      { href: "/expertise", label: "Expertise" },
       { href: "/project", label: "Project" },
       { href: "/connect", label: "Connect" },
     ];
