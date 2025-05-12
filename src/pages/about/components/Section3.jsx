@@ -29,10 +29,13 @@ const Section3 = () => {
       image:
         "https://images.icon-icons.com/2107/PNG/512/file_type_git_icon_130581.png",
     },
+    {
+      image: "https://icon.icepanel.io/Technology/svg/Vite.js.svg",
+    },
   ];
   return (
     <div className="container mx-auto">
-      <div className="grid grid-cols-7 sm-grid-cols-3 gap-12">
+      <div className="grid grid-cols-8 sm-grid-cols-3 gap-12">
         {data?.map?.((e, index) => {
           return (
             <div key={index}>

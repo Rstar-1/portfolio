@@ -51,7 +51,7 @@ const Section3 = () => {
             Skills
           </p>
           <h4 className="font-600 fsize30 md-fsize26 sm-fsize24 my1 textgray">
-            What are my skills?
+            Technologies I Work With
           </h4>
           <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
             Proficient in JavaScript (ES6+), HTML5, CSS3, and SCSS, with a

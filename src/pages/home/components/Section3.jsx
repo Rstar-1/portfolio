@@ -41,23 +41,26 @@ const Section3 = () => {
       <div className="w-full flex sm-flex-column-reverse items-center py36 md-py30 sm-py20">
         <div className="w-50 sm-w-full prpx30 md-prpx20 sm-prpx1 sm-mtpx25">
           <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500 mbpx6">
-            Info
+            What I Do
           </p>
           <h4 className="font-600 fsize30 md-fsize26 sm-fsize24 my1 textgray">
-            Hey, I am Raj Shetye
+            Passionate Frontend Developer
           </h4>
           <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
-            Passionate about building responsive, accessible, and user-friendly
-            web interfaces. <br></br>Experienced in collaborating with
-            cross-functional teams to deliver seamless digital experiences.
+            I’m passionate about building responsive, accessible, and
+            user-friendly web interfaces. With a strong focus on front-end
+            development, I enjoy turning complex problems into intuitive digital
+            experiences. I thrive in collaborative environments and have
+            experience working with cross-functional teams to deliver seamless,
+            high-quality products.
           </p>
-          <div className="grid-cols-4 sm-grid-cols-2 gap-12 mtpx16">
+          <div className="grid-cols-4 sm-grid-cols-3 gap-12 mtpx16">
             <div>
               <h6 className="fsize26 sm-fsize18 textdark font-600 my1">30+</h6>
               <p className="fsize14 textgray">Projects</p>
             </div>
             <div>
-              <h6 className="fsize26 sm-fsize18 textdark font-600 my1">2.10Y</h6>
+              <h6 className="fsize26 sm-fsize18 textdark font-600 my1">3Y</h6>
               <p className="fsize14 textgray">Experience</p>
             </div>
           </div>

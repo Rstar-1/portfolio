@@ -22,7 +22,7 @@ const Banner = () => {
               <span className="relative z-50">Know More</span>
             </button>
           </NavLink>
-          <NavLink to="/service">
+          <NavLink to="/expertise">
             <button className="px25 py8 sm-px18 sm-py6 fsize18 sm-fsize15 rounded-5 btn-style11 font-400 cursor-pointer click-btn">
               <span>How It Works</span>
             </button>
