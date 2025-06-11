@@ -1,59 +1,58 @@
 import React from "react";
+import img1 from "../../../assets/img.png";
+import img2 from "../../../assets/img2.png";
+import img3 from "../../../assets/img3.png";
+import img4 from "../../../assets/img4.png";
+import img5 from "../../../assets/img6.png";
+import img6 from "../../../assets/img7.png";
+import img8 from "../../../assets/img9.png";
+import img9 from "../../../assets/img10.png";
+import img10 from "../../../assets/img11.png";
+import img11 from "../../../assets/img12.png";
+import img12 from "../../../assets/img13.png";
+import img20 from "../../../assets/img21.png";
 
 const Section3 = () => {
-  const servicecard = [
+  const projectcard1 = [
     {
-      title: "Knowledge",
-      description:
-        "Skilled in creating clean, maintainable code and development.",
-      img: "https://html.themeholy.com/haona/demo/assets/img/icon/process-icon1-1.svg",
+      href: "https://eurobondacp.com/",
+      image: img4,
     },
     {
-      title: "Working",
-      description: "I am working on React, VueJs and NextJS in Frontend.",
-      img: "https://html.themeholy.com/haona/demo/assets/img/icon/process-icon1-2.svg",
+      href: "https://hrx.aiab.in/",
+      image: img5,
     },
     {
-      title: "Solution",
-      description:
-        "Highly skilled in frontend R&D, with a quickly analyze requirements",
-      img: "https://html.themeholy.com/haona/demo/assets/img/icon/process-icon1-3.svg",
+      href: "https://sbi-foundation.brained.in/",
+      image: img10,
+    },
+    {
+      href: "https://nhrdn-vue.aiab.in/",
+      image: img8,
     },
   ];
+
   return (
-    <div className="ptpx40 pbpx40 md-ptpx30 md-pbpx30 sm-ptpx20 sm-pbpx20">
-      <div className="container mx-auto">
-        <div className="relative">
-          <img
-            src="https://html.themeholy.com/haona/demo/assets/img/shape/process-bg-shape1.png"
-            className="service4-img md-hidden sm-hidden"
-            alt="service4-img"
-          />
-          <div className="absolute sm-relative md-relative top-0 left-0 w-full flex items-center service4-img">
-            <div className="flex flex-wrap justify-between md-justify-center sm-justify-center plpx20 prpx20 md-plpx1 md-prpx1 sm-plpx1 sm-prpx1 items-center w-full">
-              {servicecard.map((e, index) => (
-                <div
-                  key={index}
-                  className="service4-circle bgwhite d-shadow p10 md-p1 sm-p1 rounded-full sm-mbpx10 md-mlpx6 md-mrpx6 md-rounded-10 sm-rounded-10 flex items-center justify-center"
-                >
-                  <div className="sm-p10 md-p10">
-                    <div className="flex justify-center">
-                      <img
-                        src={e.img}
-                        className="servicesecond4-img object-contain"
-                        alt="servicesecond4-img"
-                      />
-                    </div>
-                    <h4 className="fsize18 md-fsize16 sm-fsize16 mtpx8 mbpx1 text-center font-500 textforth">
-                      {e.title}
-                    </h4>
-                    <p className="mtpx4 plpx4 prpx4 fsize13 sm-fsize13 text-center md-fsize13 textgray">
-                      {e.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
+    <div className="py40 md-py35 sm-py30">
+      <div className="container2">
+        <div>
+          <div className="flex items-start justify-between">
+            <div>
+              <h4 className="my1 fsize20 textdark font-600">Similar Templates</h4>
+              <p className="fsize14 textgray leading font-500">50 Assets</p>
             </div>
+            <p className="fsize15 textgray font-500">Show All</p>
+          </div>
+          <div className="grid-cols-4 sm-grid-cols-1 gap-12 mtpx12">
+            {projectcard1?.map((e, index) => (
+              <div className="bg-fa" key={index}>
+                <img
+                  src={e?.image}
+                  alt={e?.title}
+                  className="w-full h-250px object-cover flex"
+                />
+              </div>
+            ))}
           </div>
         </div>
       </div>

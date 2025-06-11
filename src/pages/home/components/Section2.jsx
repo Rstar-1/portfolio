@@ -1,72 +1,140 @@
 import React from "react";
+import img7 from "../../../assets/img8.png";
+import img14 from "../../../assets/img15.png";
+import img15 from "../../../assets/img16.png";
+import img16 from "../../../assets/img17.png";
+import img17 from "../../../assets/img18.png";
+import img18 from "../../../assets/img19.png";
+import img19 from "../../../assets/img20.png";
+import img20 from "../../../assets/img21.png";
+import { NavLink } from "react-router-dom";
 
 const Section2 = () => {
-  const servicecard = [
+  const projectcard2 = [
     {
-      title: "Select a project",
-      description:
-        "It has defined objectives, a clear scope, and a set timeline for completion. ",
-      number: "1",
-      img: "https://html.themeholy.com/webteck/demo/assets/img/icon/service_card_1.svg",
-    },
-    {
-      title: "Project analysis",
-      description:
-        "This phase involves assessing the project’s feasibility, risks, and resources.",
-      number: "2",
-      img: "https://html.themeholy.com/webteck/demo/assets/img/icon/service_card_2.svg",
-    },
-    {
-      title: "Plan Execute",
-      description:
-        "The planning phase includes developing a roadmap for project execution.",
-      number: "3",
-      img: "https://html.themeholy.com/webteck/demo/assets/img/icon/service_card_3.svg",
-    },
-    {
-      title: "Deliver result",
-      description:
-        "The final phase involves completing and handing over the project deliverables.",
-      number: "4",
-      img: "https://html.themeholy.com/webteck/demo/assets/img/icon/service_card_4.svg",
+      href: "https://joyful-sunshine-15dd0f.netlify.app/",
+      image: img7,
     },
   ];
+  const projectcard4 = [
+    {
+      href: "Project 1",
+      image: img14,
+    },
+    {
+      href: "Project 2",
+      image: img15,
+    },
+    {
+      href: "Project 3",
+      image: img16,
+    },
+    {
+      href: "Project 4",
+      image: img17,
+    },
+    {
+      href: "Project 5",
+      image: img18,
+    },
+    {
+      href: "Project 6",
+      image: img19,
+    },
+  ];
+  const category = [
+    {
+      title: "Portfolio",
+      assets: 8,
+    },
+    {
+      title: "Blogs",
+      assets: 7,
+    },
+    {
+      title: "Admin",
+      assets: 8,
+    },
+    {
+      title: "Landing Page",
+      assets: 12,
+    },
+    {
+      title: "E-Learning",
+      assets: 5,
+    },
+    {
+      title: "Ecommerce",
+      assets: 20,
+    },
+  ];
+
   return (
     <div className="py40 md-py30 sm-py40">
-      <div className="container mx-auto">
-        <div className="relative">
-          <div className="grid-cols-4 sm-grid-cols-1 relative z-50">
-            {servicecard.map((e, index) => (
-              <div className="relative sm-mbpx40" key={index}>
-                <div className="d-shadow bgwhite mlpx30 mrpx30 md-mlpx10 md-mrpx10 sm-mlpx25 sm-mrpx25 text-center service2-h flex items-center rounded-10">
-                  <div className="plpx20 prpx20 md-plpx10 md-prpx10 sm-plpx10 sm-prpx10 w-full">
-                    <img
-                      src={e.img}
-                      alt="service2-img"
-                      className="service2-img object-contain"
-                    />
-                    <h4 className="fsize18 md-fsize16 sm-fsize16 mtpx8 mbpx1 text-center font-600 textdark">
-                      {e.title}
-                    </h4>
-                    <p className="mtpx8 fsize14  sm-fsize13 text-center md-fsize13 textgray">
-                      {e.description}
-                    </p>
-                  </div>
+      <div className="container2">
+        <div className="flex gap-12 w-full">
+          <div className="w-70">
+            <h4 className="my1 fsize24 textdark font-600">Latest Collection</h4>
+            <p className="fsize14 textgray leading font-500">200 Assets</p>
+            <div className="mtpx16 grid-cols-2 sm-grid-cols-1 gap-12">
+              {projectcard4?.map((e, index) => (
+                <div className="bg-fa" key={index}>
+                  <img
+                    src={e?.image}
+                    alt={e?.title}
+                    className="w-full h-250px object-cover flex"
+                  />
                 </div>
-                <div className="absolute top-0 let-0 mlpx10">
-                  <div className="pointer flex items-center justify-center">
-                    <h5 className="fsize22 textwhite font-600">{e.number}</h5>
-                  </div>
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
-          <div className="absolute z-10 top-0 left-0 w-full flex justify-center sm-hidden">
-            <img
-              src="https://html.themeholy.com/webteck/demo/assets/img/bg/process_line.svg"
-              alt="line"
-              className="w-90 mtpx80"
-            />
+          <div className="w-30 plpx10">
+            <div>
+              <div className="">
+                <p className="bgdark w-max px20 sm-px20 py2 textwhite fsize14 flex cust_round">
+                  Category
+                </p>
+                <hr className="flex border-0 bgdark py2 minus_hr" />
+              </div>
+              <div className="grid-cols-1 gap-10 p8">
+                {category.map((cat, index) => {
+                  return (
+                    <div
+                      className="flex items-center justify-between"
+                      key={index}
+                    >
+                      <h6 className="my1 fsize16 textdark font-500">
+                        {cat?.title}
+                      </h6>
+                      <p className="fsize13 textgray text-right font-500">
+                        {cat?.assets}
+                      </p>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+            <div className="mtpx16">
+              <div className="">
+                <p className="bgdark w-max px20 sm-px20 py2 textwhite fsize14 flex cust_round">
+                  Popular
+                </p>
+                <hr className="flex border-0 bgdark py2 minus_hr" />
+              </div>
+              <div className="mtpx16 grid-cols-1 gap-12">
+                {projectcard2?.map((e, index) => (
+                  <div className="bg-fa" key={index}>
+                    <NavLink to={e?.href} target="_blank">
+                      <img
+                        src={e?.image}
+                        alt={e?.title}
+                        className="w-full h-250px object-cover flex"
+                      />
+                    </NavLink>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>

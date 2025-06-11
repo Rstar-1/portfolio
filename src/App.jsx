@@ -15,11 +15,12 @@ const Project = lazy(() => import("./pages/project/Project"));
 const Connect = lazy(() => import("./pages/connect/Connect"));
 
 const App = () => {
-  const isMobile = window.innerWidth <= 912;
+  // const isMobile = window.innerWidth <= 912;
 
   return (
     <div>
-      {isMobile ? <ScrollTop /> : <UseScroll />}
+      {/* {isMobile ? <ScrollTop /> : <UseScroll />} */}
+      <ScrollTop />
       <Navbar />
 
       <Suspense fallback={<Loader />}>
