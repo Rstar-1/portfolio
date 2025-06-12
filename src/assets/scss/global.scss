@@ -3,10 +3,10 @@
 :root {
   --primary: linear-gradient(
     270deg,
-    #6bc8326d 0%,
-    #6cc832 100%
+    rgba(115, 103, 240, 0.7) 0%,
+    #7367f0 100%
   ) !important;
-  --primary2: #6cc832 !important;
+  --primary2: #7367f0 !important;
   --secondary: linear-gradient(270deg, #e5b1b3 0%, #ff4c51 100%) !important;
   --secondary2: #ff4c51 !important;
   --tertiary: #e8f2fc !important;

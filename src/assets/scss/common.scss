@@ -1822,7 +1822,7 @@ input:focus-visible {
     height: 380px !important;
   }
   @media (max-width: 640px) {
-    height: 320px !important;
+    height: 270px !important;
   }
 }
 .h-350px {
@@ -1859,6 +1859,41 @@ input:focus-visible {
   }
   @media (max-width: 640px) {
     height: 250px !important;
+  }
+}
+.clip {
+  clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%) !important;
+}
+@media (max-width: 640px) {
+  .sm-h-auto{
+    height: auto !important;
+  }
+  .sm-bg{
+    background-color: var(--dark) !important;
+  }
+}
+.herosection4-img {
+  width: 100% !important;
+  height: 570px !important;
+  @media (min-width: 641px) and (max-width: 912px) {
+    height: 450px !important;
+  }
+  @media (max-width: 640px) {
+    height: 400px !important;
+  }
+}
+.video4-icon {
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 50% !important;
+  background: var(--success);
+  @media (min-width: 641px) and (max-width: 912px) {
+    width: 40px !important;
+    height: 40px !important;
+  }
+  @media (max-width: 640px) {
+    width: 38px !important;
+    height: 38px !important;
   }
 }
 /* ======================= End-Height ======================= */
@@ -1924,7 +1959,7 @@ p {
   align-items: center !important;
 }
 .h-100 {
-  height: 100vh !important;
+  height: 100vh;
 }
 .error-h {
   height: 90vh !important;
@@ -2069,6 +2104,10 @@ p {
 /* ======================= End-Common ======================= */
 
 /* ======================= Start-NavFoot ======================= */
+.nav-logo {
+  width: 100px !important;
+  height: 55px !important;
+}
 .navbar .activetext {
   color: var(--gray);
 }
