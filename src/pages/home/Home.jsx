@@ -2,19 +2,23 @@ import React from "react";
 import Banner from "./components/Banner";
 import Section2 from "./components/Section2";
 import Section3 from "./components/Section3";
-import Section4 from "./components/Section4";
-import Section5 from "./components/Section5";
 
 const Home = () => {
   return (
-    <div className="relative section_bg overflow-hidden">
+    <div className="relative overflow-hidden">
       <Banner />
-      <Section2 />
-      <Section3 />
-      <div className="bgwhite">
-        <Section4 />
+      <div className="py40 md-py30 sm-py40">
+        <div className="container2">
+          <div className="flex gap-12 w-full">
+            <div className="w-70">
+              <Section2 />
+            </div>
+            <div className="w-30 plpx10">
+              <Section3 />
+            </div>
+          </div>
+        </div>
       </div>
-        <Section5 />
     </div>
   );
 };

@@ -24,6 +24,21 @@
     padding: 0px 10px !important;
   }
 }
+.container2 {
+  display: flex !important;
+  justify-content: center !important;
+  margin: 0px auto !important;
+  padding: 0 30px !important;
+  @media (max-width: 1224px) and (min-width: 913px) {
+    padding: 0px 30px !important;
+  }
+  @media (max-width: 912px) and (min-width: 641px) {
+    padding: 0px 20px !important;
+  }
+  @media (max-width: 640px) {
+    padding: 0px 10px !important;
+  }
+}
 /* ======================= End-Container ======================= */
 
 /* ======================= Start-display ======================= */
@@ -1855,15 +1870,6 @@ body {
   box-sizing: border-box;
   word-wrap: break-word !important;
   width: 100% !important;
-}
-html {
-  height: auto !important;
-}
-html {
-  overflow: hidden;
-  @media (max-width: 640px) {
-    overflow: visible;
-  }
 }
 a {
   text-decoration: none !important;

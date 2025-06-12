@@ -1,76 +1,78 @@
-import React, { useEffect } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger);
+import React from "react";
+import img7 from "../../../assets/img15.png";
 
 const Section3 = () => {
-  useEffect(() => {
-    const maski = document.querySelectorAll(".mainabout");
-
-    maski.forEach((maskz) => {
-      const image2 = maskz.querySelector(".abouts1");
-
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: maskz,
-          toggleActions: "restart none none reset",
-        },
-      });
-
-      tl.set(maskz, { autoAlpha: 1 })
-        .from(maskz, 1.5, {
-          yPercent: 0,
-          ease: "power2.out",
-        })
-        .from(image2, 1.5, {
-          yPercent: 100,
-          scale: 1.3,
-          delay: -1.5,
-          ease: "power2.out",
-        });
-    });
-
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
-
+  const category = [
+    {
+      title: "Portfolio",
+      assets: 8,
+    },
+    {
+      title: "Blogs",
+      assets: 7,
+    },
+    {
+      title: "Admin",
+      assets: 8,
+    },
+    {
+      title: "Landing Page",
+      assets: 12,
+    },
+    {
+      title: "E-Learning",
+      assets: 5,
+    },
+    {
+      title: "Ecommerce",
+      assets: 20,
+    },
+  ];
+  const popular = [
+    {
+      href: "https://joyful-sunshine-15dd0f.netlify.app/",
+      image: img7,
+    },
+  ];
   return (
-    <div className="container mx-auto">
-      <div className="w-full flex sm-flex-column-reverse items-center py36 md-py30 sm-py20">
-        <div className="w-50 sm-w-full prpx30 md-prpx20 sm-prpx1 sm-mtpx25">
-          <p className="fsize20 md-fsize18 sm-fsize16 textprimary font-500 mbpx6">
-            What I Do
+    <div>
+      <div>
+        <div className="">
+          <p className="bgdark w-max px20 sm-px20 py2 textwhite fsize14 flex cust_round">
+            Category
           </p>
-          <h4 className="font-600 fsize30 md-fsize26 sm-fsize24 my1 textgray">
-            Passionate Frontend Developer
-          </h4>
-          <p className="fsize16 md-fsize15 sm-fsize14 leading-m textgray mtpx8">
-            I’m passionate about building responsive, accessible, and
-            user-friendly web interfaces. With a strong focus on front-end
-            development, I enjoy turning complex problems into intuitive digital
-            experiences. I thrive in collaborative environments and have
-            experience working with cross-functional teams to deliver seamless,
-            high-quality products.
-          </p>
-          <div className="grid-cols-4 sm-grid-cols-3 gap-12 mtpx16">
-            <div>
-              <h6 className="fsize26 sm-fsize18 textdark font-600 my1">30+</h6>
-              <p className="fsize14 textgray">Projects</p>
-            </div>
-            <div>
-              <h6 className="fsize26 sm-fsize18 textdark font-600 my1">3Y</h6>
-              <p className="fsize14 textgray">Experience</p>
-            </div>
-          </div>
+          <hr className="flex border-0 bgdark py2 minus_hr" />
         </div>
-        <div className="mainabout relative overflow-hidden w-50 sm-w-full">
-          <img
-            src="https://media2.dev.to/dynamic/image/width=1080,height=1080,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk22mqgz4qrzx3jcq6x13.png"
-            className="abouts1 object-cover h-450px filter-0 rounded-5 w-full flex"
-            alt="An elegant Peugeot car"
-          />
+        <div className="grid-cols-1 gap-10 p8">
+          {category.map((cat, index) => {
+            return (
+              <div className="flex items-center justify-between" key={index}>
+                <h6 className="my1 fsize16 textdark font-500">{cat?.title}</h6>
+                <p className="fsize13 textgray text-right font-500">
+                  {cat?.assets}
+                </p>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+      <div className="mtpx16">
+        <div className="">
+          <p className="bgdark w-max px20 sm-px20 py2 textwhite fsize14 flex cust_round">
+            Popular
+          </p>
+          <hr className="flex border-0 bgdark py2 minus_hr" />
+        </div>
+        <div className="mtpx16 grid-cols-1 gap-12">
+          {popular?.map((e, index) => (
+            <div className="bg-fa" key={index}>
+                <img
+                  src={e?.image}
+                  alt={e?.title}
+                  className="w-full h-250px object-cover flex"
+                />
+            </div>
+          ))}
         </div>
       </div>
     </div>

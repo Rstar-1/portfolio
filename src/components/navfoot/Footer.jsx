@@ -10,21 +10,23 @@ const Footer = () => {
     ];
   return (
     <div className="bgdark py20">
-      <div className="container mx-auto">
-        <div className="flex sm-flex-wrap sm-justify-center items-center gap-12 py25 bordb">
-          {footData.map((e, index) => (
-            <NavLink
-              key={index}
-              to={e?.href}
-              className="font-400 textwhite mx12 fsize14"
-            >
-              {e?.label}
-            </NavLink>
-          ))}
+      <div className="container2">
+        <div className="w-full">
+          <div className="flex sm-flex-wrap sm-justify-center items-center gap-12 py25 bordb">
+            {footData.map((e, index) => (
+              <NavLink
+                key={index}
+                to={e?.href}
+                className="font-400 textwhite mx12 fsize14"
+              >
+                {e?.label}
+              </NavLink>
+            ))}
+          </div>
+          <p className="text-center fsize14 sm-fsize13 textwhite ptpx25">
+            Created By RAJ Shetye | © 2025 All rights reserved.
+          </p>
         </div>
-        <p className="text-center fsize14 sm-fsize13 textwhite ptpx25">
-          Created By RAJ Shetye | © 2025 All rights reserved.
-        </p>
       </div>
     </div>
   );
