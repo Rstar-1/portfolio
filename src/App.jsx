@@ -1,20 +1,14 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Suspense, lazy } from "react";
-
 import Navbar from "./components/navfoot/Navbar";
-// import Footer from "./components/navfoot/Footer";
-// import UseScroll from "./components/UseScroll";
+import Footer from "./components/navfoot/Footer";
 import ScrollTop from "./components/ScrollTop";
 import Loader from "./components/Loader";
 
-// Lazy load page components
 const Home = lazy(() => import("./pages/home/Home"));
 const App = () => {
-  // const isMobile = window.innerWidth <= 912;
-
   return (
     <div>
-      {/* {isMobile ? <ScrollTop /> : <UseScroll />} */}
       <ScrollTop />
       <Navbar />
       <Suspense fallback={<Loader />}>
@@ -23,7 +17,7 @@ const App = () => {
           <Route path="/home" element={<Home />} />
         </Routes>
       </Suspense>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };
