@@ -4,16 +4,16 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const NavData = [
     { href: "/home", label: "All Category" },
-    { href: "/", label: "Web Templates" },
-    { href: "/", label: "Admin Templates" },
-    { href: "/", label: "CMS Templates" },
-    { href: "/", label: "WordPress" },
-    { href: "/", label: "Shopify" },
-    { href: "/", label: "Digital Marketing" },
-    { href: "/", label: "Graphic Templates" },
-    { href: "/", label: "Video Templates" },
+    { href: "/", label: "Blogs Templates" },
+    { href: "/", label: "Ecom Templates" },
+    { href: "/", label: "HeroSection" },
+    { href: "/", label: "Animate Section" },
+    { href: "/", label: "Loaders" },
+    { href: "/", label: "Sliders" },
+    { href: "/", label: "Portfolio Templates" },
+    { href: "/", label: "Landing Page" },
     { href: "/", label: "3D Models" },
-    { href: "/", label: "Digital Cards" },
+    { href: "/", label: "Admin Templates" },
     { href: "/", label: "Brochure" },
   ];
   const [sidebarshow, setsidebarshow] = useState(false);
