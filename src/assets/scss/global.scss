@@ -1,16 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
 /* ======================= Start-Color ======================= */
 :root {
-  --primary: linear-gradient(
-    270deg,
-    #6bc8326d 0%,
-    #6cc832 100%
-  ) !important;
-  --primary2: #6cc832 !important;
-  --secondary: linear-gradient(270deg, #e5b1b3 0%, #ff4c51 100%) !important;
+  --primary: #625AFA !important;
+  --primary2: #625AFA !important;
+  --secondary: #ff4c51 !important;
   --secondary2: #ff4c51 !important;
-  --tertiary: #e8f2fc !important;
-  --forth: #0f172a !important;
+  --tertiary: #f0f2ee !important;
+  --forth: #03041c !important;
   --success: #4bb543 !important;
   --warning: #ff5722 !important;
   --danger: red !important;
@@ -18,7 +14,7 @@
   --white: #fff !important;
   --card: #fff !important;
   --dark: #2f2b24 !important;
-  --gray: rgb(80, 72, 72) !important;
+  --gray: #525258 !important;
   --dynamic-color: #fff;
 }
 .dark-mode {
@@ -253,27 +249,6 @@ input,
 }
 /* ======================= End-Font-Family ======================= */
 
-.bg_hero {
-  background: url("https://www.primefaces.org/cdn/primereact/images/layout/pattern.png"),
-    radial-gradient(50% 50% at center top, #e9e7fd -50%, #fff 100%) !important;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.section_bg {
-  background-image: linear-gradient(
-      rgba(109, 102, 102, 0.057) 1px,
-      transparent 1px
-    ),
-    linear-gradient(90deg,  rgba(109, 102, 102, 0.057) 1px, transparent 1px);
-  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
-  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-}
-.ab_pr_100 {
-  height: 100vh !important;
-  @media (max-width: 640px) {
-    height: 100% !important;
-  }
-}
 .brand_img{
   height: 80px !important;
 }
@@ -286,122 +261,6 @@ input,
 .icon_img{
   width: 55px !important;
   height: 55px !important;
-}
-
-// Section2
-.service2-h {
-  height: 270px !important;
-  @media (max-width: 640px) {
-    height: 250px !important;
-  }
-}
-.service2-img {
-  width: 55px !important;
-  height: 55px !important;
-  @media (max-width: 912px) and (min-width: 641px) {
-    width: 40px !important;
-    height: 40px !important;
-  }
-  @media (max-width: 640px) {
-    width: 40px !important;
-    height: 40px !important;
-  }
-}
-.pointer {
-  width: 50px !important;
-  height: 50px !important;
-  border-radius: 50% !important;
-  margin-top: -20px !important;
-  background: var(--primary2);
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 2s infinite;
-  @media (min-width: 641px) and (max-width: 912px) {
-    width: 40px !important;
-    height: 40px !important;
-  }
-  @media (max-width: 640px) {
-    width: 38px !important;
-    height: 38px !important;
-  }
-}
-@keyframes pulse {
-  0% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-  }
-
-  70% {
-    transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-  }
-
-  100% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-  }
-}
-// Section2
-
-// Section4
-.service4-img {
-  width: 100% !important;
-  height: 350px !important;
-  @media (max-width: 1224px) and (min-width: 913px) {
-    height: 290px !important;
-  }
-  @media (max-width: 912px) {
-    height: 100% !important;
-  }
-}
-.servicesecond4-img {
-  width: 40px !important;
-  height: 40px !important;
-}
-.service4-circle {
-  width: 270px !important;
-  height: 270px !important;
-  @media (max-width: 1224px) and (min-width: 913px) {
-    width: 230px !important;
-    height: 230px !important;
-  }
-  @media (max-width: 912px) and (min-width: 641px) {
-    width: 30% !important;
-    height: 180px !important;
-  }
-  @media (max-width: 640px) {
-    width: 100% !important;
-    height: 180px !important;
-  }
-}
-// Section4
-
-.scrollx svg {
-  position: absolute;
-  top: 12%;
-  left: 0px;
-  width: 60vw;
-  @media (max-width: 912px) and (min-width: 641px) {
-    width: 90%;
-  }
-  @media (max-width: 640px) {
-    width: 100%;
-  }
-}
-.summary {
-  width: 100%;
-  min-width: 50% !important;
-  height: 70vh;
-  display: flex;
-  align-items: center;
-  padding: 3px;
-  @media (max-width: 912px) and (min-width: 641px) {
-  height: 80vh;
-  min-width: 80% !important;
-  }
-  @media (max-width: 640px) {
-    min-width: 85% !important;
-  }
 }
 .up-box {
   width: 40px !important;

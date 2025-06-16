@@ -5,21 +5,21 @@ import logo from "../../assets/logo.png";
 const Navbar = () => {
   const NavData = [
     { href: "/home", label: "All Category" },
-    { href: "/", label: "Web Templates" },
-    { href: "/", label: "Admin Templates" },
-    { href: "/", label: "CMS Templates" },
-    { href: "/", label: "WordPress" },
-    { href: "/", label: "Shopify" },
-    { href: "/", label: "Digital Marketing" },
-    { href: "/", label: "Graphic Templates" },
-    { href: "/", label: "Video Templates" },
-    { href: "/", label: "3D Models" },
-    { href: "/", label: "Digital Cards" },
-    { href: "/", label: "Brochure" },
+    { href: "/", label: "Electronics" },
+    { href: "/", label: "Textiles" },
+    { href: "/", label: "IT Services" },
+    { href: "/", label: "Machinery" },
+    { href: "/", label: "Chemicals" },
+    { href: "/", label: "Hospitals & Clinics" },
+    { href: "/", label: "Industrial Equipment" },
+    { href: "/", label: "Construction Materials" },
+    { href: "/", label: "Digital Media" },
+    { href: "/", label: "Education" },
+    { href: "/", label: "Grocery" },
   ];
   const [sidebarshow, setsidebarshow] = useState(false);
   return (
-    <div className="w-full navbar bgdark">
+    <div className="w-full navbar bgwhite">
       <div
         className={
           sidebarshow === true
@@ -28,10 +28,10 @@ const Navbar = () => {
         }
       >
         <div className="bgwhite b-shadow w-30 md-w-40 sm-w-full h-100 absolute right-0 top-0">
-          <div className="bgdark p10">
+          <div className="bgprimary p10">
             <div className="flex items-center justify-between gap-4 plpx10 prpx10">
-              <h2 className="font-500 fsize19 textprimary uppercase my1">
-                AI<span className="textwhite mlpx2">PING</span>
+              <h2 className="font-500 fsize19 textwhite uppercase my1">
+                AI PING
               </h2>
               <div onClick={() => setsidebarshow(false)}>
                 <svg
@@ -85,14 +85,14 @@ const Navbar = () => {
       <div className="container2">
         <div className="flex items-center justify-between py12 w-full">
           <h1 className="font-500 fsize24 textprimary uppercase my1">
-            AI<span className="textwhite mlpx2">PING</span>
+            AI<span className="textforth mlpx2">PING</span>
           </h1>
           <div className="flex items-center gap-12">
             <svg
               viewBox="0 0 24 24"
               width="20"
               height="20"
-              stroke="var(--white)"
+              stroke="var(--gray)"
               strokeWidth="2"
               fill="none"
               className="flex cursor-pointer"
@@ -104,7 +104,7 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               width="18"
               height="18"
-              stroke="var(--white)"
+              stroke="var(--gray)"
               strokeWidth="2"
               fill="none"
               className="flex"
@@ -115,7 +115,7 @@ const Navbar = () => {
               viewBox="0 0 26 26"
               width="26"
               height="26"
-              stroke="white"
+              stroke="gray"
               strokeWidth="2"
               fill="none"
               className="cursor-pointer flex"

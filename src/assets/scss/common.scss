@@ -1861,6 +1861,15 @@ input:focus-visible {
     height: 250px !important;
   }
 }
+.h-150px{
+  height: 150px !important;
+  @media (max-width: 912px) and (min-width: 641px) {
+    height: 140px !important;
+  }
+  @media (max-width: 640px) {
+    height: 100px !important;
+  }
+}
 .clip {
   clip-path: polygon(0px 0px, 100% 0px, 100% 85%, 50% 100%, 0px 85%) !important;
 }

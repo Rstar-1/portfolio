@@ -4,6 +4,8 @@ import Navbar from "./components/navfoot/Navbar";
 import Footer from "./components/navfoot/Footer";
 import ScrollTop from "./components/ScrollTop";
 import Loader from "./components/Loader";
+import Product from "./pages/product/Product";
+import Overview from "./pages/overview/Overview";
 
 const Home = lazy(() => import("./pages/home/Home"));
 const App = () => {
@@ -15,6 +17,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Navigate to="/home" replace />} />
           <Route path="/home" element={<Home />} />
+          <Route path="/shop" element={<Product />} />
+          <Route path="/overview" element={<Overview />} />
         </Routes>
       </Suspense>
       <Footer />
